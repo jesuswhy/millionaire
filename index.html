@@ -7,7 +7,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="game-container">
+  <button id="start-button">Начать игру</button>
+  <audio id="start-sound" src="us-open-theme.mp3"></audio>
+  <audio id="background-music" src="q1-5-bed-2008.mp3" loop></audio>
+  <audio id="select-sound" src="20-q1-14-clock-stop-button.mp3"></audio>
+  <audio id="correct-sound" src="khsm_q1-5-correct-o.mp3"></audio>
+  <audio id="incorrect-sound" src="khsm_q6-wrong.mp3"></audio>
+
+  <div class="game-container hidden">
     <h1>Кто хочет стать агротрейдером?</h1>
     <div class="question-section">
       <div id="question-text">Здесь будет отображаться вопрос</div>
