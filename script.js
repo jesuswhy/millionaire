@@ -1,9 +1,15 @@
 const questions = [
     {
-      question: "Какой город является столицей Франции?",
-      answers: { A: "Берлин", B: "Лондон", C: "Париж", D: "Мадрид" },
+      question: "Что значит число 8123098121?",
+      answers: { A: "Номер телефона", B: "ID клиента", C: "Наша выручка за год", D: "Шифр" },
       correct: "C"
-    }
+    },
+    {
+        question: "Кто такая Настя Goldland?",
+        answers: { A: "Сотрудник", B: "Покупатель", C: "Знакомая", D: "Поставщик" },
+        correct: "B"
+      }
+
   ];
   
   const startSound = document.getElementById('start-sound');
